@@ -23,6 +23,22 @@ pub mod tianlangstudio {
                       gph);
 
      }
+     fn get_step(&self) -> f64 {
+        self.width / 2.0
+     } 
+     pub fn mv_left(&mut self) {
+        self.x -= self.get_step();
+        if self.x < 0.0 {
+          self.x = 0.0;
+        }
+     }
+     pub fn mv_right(&mut self, area_width: f64) {
+        self.x += self.get_step();
+        if self.x + self.width > area_width {
+          self.x = area_width - self.width;
+        }
+
+     }
    }
 
 }
