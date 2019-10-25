@@ -1,7 +1,14 @@
 # Game PingPang
 
 PingPang Game written with #rust #piston
+![Ping Pang Game](https://raw.githubusercontent.com/TianLangStudio/game_pingpang_rust/master/images/pingpang-game-rust.png) 
 
+## Run
+```
+git clone https://github.com/TianLangStudio/game_pingpang_rust.git
+cd game_pingpang_rust
+cargo run
+``` 
 ## 相应视频内容可访问
 [51cto学院:](https://edu.51cto.com/sd/aca72)
 ![51cto](https://img-blog.csdnimg.cn/20190908101845295.png)
